@@ -27,6 +27,21 @@ Translations are managed centrally using POEditor. Join the project here to cont
 
 Additionally, there's no obligation to do so, but if you'd like to support my work on this project and other AC:NH research: [PayPal.me](https://paypal.me/trashcurl) | [Ko-fi](https://ko-fi.com/ninji_) | [Monzo](https://monzo.me/ninji) (UK)
 
+## Building
+
+This project requires Node and Rust.
+
+- Download [Node](https://nodejs.org/en/download/).
+- Download [Rust](https://rustup.rs/).
+ - Run the script and follow the prompts. This will install Rust in `$HOME/.cargo`.
+ - `source $HOME/.cargo/env` to configure your environment.
+- Create the `node` environment by installing all the requisite dependencies:
+ - `npm update` and `npm install`
+- Pre-compile the Rust code: `cargo b` (this is necessary as the compilation step below fails without it).
+- Compile the web module: `npm run-script build`.
+
+Assuming you have everything set up properly, you should get a `dist` directory.
+
 ## Roadmap/to-do list
 
 - Refresh overview when the day changes at 5am
