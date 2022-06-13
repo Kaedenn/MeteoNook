@@ -45,8 +45,8 @@
 
 <script lang='ts'>
 import { Vue, Component, Prop } from 'vue-property-decorator'
-import {Forecast, MonthForecast, DayForecast} from '../model'
-import {isSpecialDay, getMonthLength} from '../../pkg'
+import { StarInfo, Forecast, MonthForecast, DayForecast } from '../model'
+import { isSpecialDay, getMonthLength } from '../../pkg'
 import DayVisualisationBar from './DayVisualisationBar.vue'
 
 @Component({components: {DayVisualisationBar}})

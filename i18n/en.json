@@ -118,6 +118,7 @@
     "yAuroraS": "1 aurora australis day | {n} aurora australis days",
     "oExample": "This is an example forecast that shows what MeteoNook can do. Once you find out your island's seed, fill in the details below to get your personalised overview.",
     "oChange": "Change",
+    "oExportShowers": "Export Stars",
     "oEditSettings": "Edit settings",
     "oShareLink": "Share a link",
     "oRemoveIsland": "Remove island",
